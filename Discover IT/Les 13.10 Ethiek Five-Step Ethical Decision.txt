@@ -1,0 +1,16 @@
+Five-Step Ethical Decision
+	Assessment (feiten verzamelen)
+		Het bedrijf waar je voor werkt maakt een app waarbij de persoonlijke gezondheidsgegevens gaan verkocht worden aan derden.
+	Alternatives (Alternatieven)
+		1. Doorgaan met het plan
+		2. Data deels te gebruiken en vragen aan gebruiker
+		3. Niet doen en stoppen met het project
+	Analysis (analyse)
+		1. Privacy schending, juridische gevolgen, verlies gebruikers
+		2. zelfde als 1 enkel misschien minder erg
+		3. Volledig oke, verlies project
+	Application (Ethische principes toepassen)
+		optie 2 je vraagt het aan de gebruiker en wordt niet meer zonder toestemming gebruikt
+	Action (implementeren en evalueren)
+		Applicatie is meer transparant en zorgt ervoor dat de gebruiker nog een keuzen heeft.
+		Evalueer de impact met de gebruikers kosten, ...

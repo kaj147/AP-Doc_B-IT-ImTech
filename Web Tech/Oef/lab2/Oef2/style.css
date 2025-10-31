@@ -1,0 +1,28 @@
+body{
+    background-color: #f9644e;
+
+}
+div{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    width: 25rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+h1{
+    padding-top: 1rem;
+    font-weight: 500;
+}
+p {
+    padding-bottom: 1rem;
+}
+a {
+    text-decoration: underline;
+    color: #f9644e;
+}
