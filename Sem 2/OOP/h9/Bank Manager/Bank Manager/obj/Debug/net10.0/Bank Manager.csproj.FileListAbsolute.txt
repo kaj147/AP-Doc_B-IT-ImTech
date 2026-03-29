@@ -1,0 +1,15 @@
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\obj\Debug\net10.0\Bank Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\obj\Debug\net10.0\Bank Manager.AssemblyInfoInputs.cache
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\obj\Debug\net10.0\Bank Manager.AssemblyInfo.cs
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\obj\Debug\net10.0\Bank Manager.csproj.CoreCompileInputs.cache
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\obj\Debug\net10.0\Bank Manager.sourcelink.json
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\bin\Debug\net10.0\Bank Manager.exe
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\bin\Debug\net10.0\Bank Manager.deps.json
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\bin\Debug\net10.0\Bank Manager.runtimeconfig.json
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\bin\Debug\net10.0\Bank Manager.dll
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\bin\Debug\net10.0\Bank Manager.pdb
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\obj\Debug\net10.0\Bank Manager.dll
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\obj\Debug\net10.0\refint\Bank Manager.dll
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\obj\Debug\net10.0\Bank Manager.pdb
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\obj\Debug\net10.0\Bank Manager.genruntimeconfig.cache
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Trim 2\OOP\h9\Bank Manager\Bank Manager\obj\Debug\net10.0\ref\Bank Manager.dll

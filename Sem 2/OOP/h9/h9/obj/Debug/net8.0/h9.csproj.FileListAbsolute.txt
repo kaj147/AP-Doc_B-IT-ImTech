@@ -1,0 +1,14 @@
+C:\Users\Christophe\Desktop\h9\h9\obj\Debug\net8.0\h9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christophe\Desktop\h9\h9\obj\Debug\net8.0\h9.AssemblyInfoInputs.cache
+C:\Users\Christophe\Desktop\h9\h9\obj\Debug\net8.0\h9.AssemblyInfo.cs
+C:\Users\Christophe\Desktop\h9\h9\obj\Debug\net8.0\h9.csproj.CoreCompileInputs.cache
+C:\Users\Christophe\Desktop\h9\h9\bin\Debug\net8.0\h9.exe
+C:\Users\Christophe\Desktop\h9\h9\bin\Debug\net8.0\h9.deps.json
+C:\Users\Christophe\Desktop\h9\h9\bin\Debug\net8.0\h9.runtimeconfig.json
+C:\Users\Christophe\Desktop\h9\h9\bin\Debug\net8.0\h9.dll
+C:\Users\Christophe\Desktop\h9\h9\bin\Debug\net8.0\h9.pdb
+C:\Users\Christophe\Desktop\h9\h9\obj\Debug\net8.0\h9.dll
+C:\Users\Christophe\Desktop\h9\h9\obj\Debug\net8.0\refint\h9.dll
+C:\Users\Christophe\Desktop\h9\h9\obj\Debug\net8.0\h9.pdb
+C:\Users\Christophe\Desktop\h9\h9\obj\Debug\net8.0\h9.genruntimeconfig.cache
+C:\Users\Christophe\Desktop\h9\h9\obj\Debug\net8.0\ref\h9.dll
