@@ -1,0 +1,14 @@
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\bin\Debug\net8.0\Console_Test.exe
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\bin\Debug\net8.0\Console_Test.deps.json
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\bin\Debug\net8.0\Console_Test.runtimeconfig.json
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\bin\Debug\net8.0\Console_Test.dll
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\bin\Debug\net8.0\Console_Test.pdb
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\obj\Debug\net8.0\Console_Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\obj\Debug\net8.0\Console_Test.AssemblyInfoInputs.cache
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\obj\Debug\net8.0\Console_Test.AssemblyInfo.cs
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\obj\Debug\net8.0\Console_Test.csproj.CoreCompileInputs.cache
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\obj\Debug\net8.0\Console_Test.dll
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\obj\Debug\net8.0\refint\Console_Test.dll
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\obj\Debug\net8.0\Console_Test.pdb
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\obj\Debug\net8.0\Console_Test.genruntimeconfig.cache
+C:\Users\Christophe\Desktop\Console_Test\Console_Test\obj\Debug\net8.0\ref\Console_Test.dll

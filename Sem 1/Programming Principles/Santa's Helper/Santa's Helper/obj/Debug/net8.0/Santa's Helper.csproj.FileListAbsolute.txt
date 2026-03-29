@@ -1,0 +1,15 @@
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\bin\Debug\net8.0\Santa's Helper.exe
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\bin\Debug\net8.0\Santa's Helper.deps.json
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\bin\Debug\net8.0\Santa's Helper.runtimeconfig.json
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\bin\Debug\net8.0\Santa's Helper.dll
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\bin\Debug\net8.0\Santa's Helper.pdb
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\obj\Debug\net8.0\Santa's Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\obj\Debug\net8.0\Santa's Helper.AssemblyInfoInputs.cache
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\obj\Debug\net8.0\Santa's Helper.AssemblyInfo.cs
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\obj\Debug\net8.0\Santa's Helper.csproj.CoreCompileInputs.cache
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\obj\Debug\net8.0\Santa's Helper.sourcelink.json
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\obj\Debug\net8.0\Santa's Helper.dll
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\obj\Debug\net8.0\refint\Santa's Helper.dll
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\obj\Debug\net8.0\Santa's Helper.pdb
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\obj\Debug\net8.0\Santa's Helper.genruntimeconfig.cache
+C:\Users\Christophe\Desktop\AP\B_IT&ImTech\AP-Doc_B-IT-ImTech\Programming Principles\Oef\Santa's Helper\Santa's Helper\obj\Debug\net8.0\ref\Santa's Helper.dll

@@ -1,0 +1,263 @@
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/* Gebruikte kleuren (studenten met kleurenblindheid: maak je geen zorgen): 
+ZWART: #000000
+WIT: #ffffff
+MOSTERDGEEL: #fed232
+GROEN: #21a85d
+BLAUW: #5757fd
+ROOD: #f04e2b
+ROZEROOD: #ff8577
+PAARS: #9d5ef3
+
+Het lettertype Noto Sans Mono kan je gebruiken in de font-weights 300, 500 en 700
+*/
+
+body {
+	font-family: 'Noto Sans Mono', monospace;
+	font-size: 1.1rem;
+	font-weight: 300;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr auto;
+}
+
+header {
+	grid-column: 1/3;
+	grid-row: 1/2;
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: 8fr 2fr;
+	background-color: black;
+}
+
+header a {
+	color: white;
+}
+
+header h1 {
+	grid-column: 1/2;
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: 500;
+}
+
+header ul {
+	grid-column: 2/3;
+	display: flex;
+	text-align: right;
+	justify-content: space-between;
+	gap: clamp(0.5rem, 8vw, 5vw);
+}
+
+a {
+	text-decoration: none;
+}
+
+header nav ul li a.geselecteerd {
+	text-decoration: underline;
+}
+
+header nav.out {
+	animation-name: navOut;
+}
+
+header nav.in {
+	animation-name: navIn;
+}
+
+header nav {
+	animation-duration: 0.4s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+
+header nav.out {
+	animation-name: navOut;
+}
+
+header nav.in {
+	animation-name: navIn;
+}
+
+@keyframes navOut {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(120%);
+	}
+}
+
+@keyframes navIn {
+	0% {
+		transform: translateX(120%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+aside {
+	display: none;
+}
+
+main {
+	grid-column: 1/3;
+	padding: 1rem;
+}
+
+main nav {
+	text-decoration: none;
+	background-color: #fed232;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+main nav ul li {
+	margin: 10px;
+}
+
+main nav a {
+	color: black;
+}
+
+main nav .geselecteerd {
+	font-weight: bold;
+}
+
+.figuur1 {
+	background-color: #5757fd;
+	display: flex;
+	height: 30vh;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	padding: 1rem;
+}
+
+.figuur1 ul {
+	text-align: center;
+	padding: 10px;
+}
+
+.figuur1 li {
+	width: 10vw;
+	height: 10vh;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.figuur1 li:nth-child(1) {
+	margin-left: auto;
+	margin-right: 1rem;
+	background-color: red;
+	clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}
+
+.figuur1 li:nth-child(2) {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	background-color: yellow;
+	clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
+}
+
+.figuur1 li:nth-child(3) {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	background-color: purple;
+	border-radius: 50%;
+}
+
+.figuur1 li:nth-child(4) {
+	margin-left: 1rem;
+	margin-right: auto;
+	background-color: salmon;
+	clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0%);
+}
+
+.figuur2 {
+    background-color: #21a85d;
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.figuur2 div {
+    width: 100vw;
+    background-color: #5757fd;
+    height: 5vh;
+    animation: figuur2;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.figuur2 div::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 5vh;
+	height: 100vw;
+	background-color: #5757fd;
+	transform: translate(-50%, -50%);
+}
+
+
+@keyframes figuur2 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.vorigevolgende {
+	grid-column: 1/3;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 20vh;
+}
+
+.vorigevolgende li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:white;
+	padding: 1rem;
+}
+
+.vorigevolgende li:nth-child(1) {
+	grid-column: 1/2;
+	background-color: #5757fd;
+}
+
+.vorigevolgende li:nth-child(2) {
+	grid-column: 2/3;
+	background-color: #21a85d;
+	text-align: end;
+}
+
+.vorige a:hover {
+	background-color: #ff8577;
+}
+
+.volgende a:hover {
+	background-color: #ff8577;
+}
+
+footer {
+	grid-column: 1/3;
+	background-color: #ff8577;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+}
+

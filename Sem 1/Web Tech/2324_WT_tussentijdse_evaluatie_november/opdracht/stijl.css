@@ -1,0 +1,21 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/*
+Blijf rustig. Denk goed na. Blijf niet te lang hangen bij details.
+Studenten met kleurenblindheid: probeer de kleuren naar best vermogen aan te brengen. Maak je geen zorgen.
+Gebruikte kleuren:
+oranje / #f87f4b
+roze / #fab8d3
+groen / #37bb95
+geel / #f0eb70
+paars / #9270c4
+Verder: black (zwart) en #f5f5f5 (grijs)
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;}
+    

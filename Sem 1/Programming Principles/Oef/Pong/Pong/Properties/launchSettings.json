@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Pong": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
