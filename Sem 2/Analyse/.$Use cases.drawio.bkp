@@ -1,0 +1,69 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Page-1" id="YuNHqo7aWFllbgcQx5Sj">
+    <mxGraphModel dx="1042" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-1" parent="1" style="verticalLabelPosition=middle;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=0;rotation=0;labelPosition=center;align=center;textDirection=ltr;labelBorderColor=none;" value="E-mail programma" vertex="1">
+          <mxGeometry height="520" width="520" x="250" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Student&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="E-mail versturen" vertex="1">
+          <mxGeometry height="70" width="140" x="285" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-8" edge="1" parent="1" source="6yMeuTrKZTJg5ea7_a2W-2" style="endArrow=none;html=1;rounded=0;entryX=0.041;entryY=0.354;entryDx=0;entryDy=0;entryPerimeter=0;" target="6yMeuTrKZTJg5ea7_a2W-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="90" y="240" as="sourcePoint" />
+            <mxPoint x="300.8399999999999" y="240.394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-19" parent="1" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="120" width="180" x="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-20" parent="6yMeuTrKZTJg5ea7_a2W-19" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="E-mail bewerken" vertex="1">
+          <mxGeometry height="30" width="120" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-21" parent="6yMeuTrKZTJg5ea7_a2W-19" style="line;strokeWidth=1;fillColor=none;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;dashed=0;resizeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="180" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-22" parent="6yMeuTrKZTJg5ea7_a2W-19" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="&lt;span style=&quot;&quot;&gt;Uitzondering(en):&lt;/span&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;E-mail al verstuurd&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="E-mail opslaan" vertex="1">
+          <mxGeometry height="70" width="140" x="540" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-28" edge="1" parent="1" source="6yMeuTrKZTJg5ea7_a2W-19" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.936;exitY=0.247;exitDx=0;exitDy=0;exitPerimeter=0;" target="6yMeuTrKZTJg5ea7_a2W-25" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;&lt;/font&gt;">
+          <mxGeometry relative="1" width="160" x="-0.125" y="14" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="350" y="330" as="sourcePoint" />
+            <mxPoint x="510" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Foutmelding tonen" vertex="1">
+          <mxGeometry height="70" width="140" x="540" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-30" edge="1" parent="1" source="6yMeuTrKZTJg5ea7_a2W-29" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;entryX=1.008;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="6yMeuTrKZTJg5ea7_a2W-22" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt;Extend&amp;gt;&amp;gt;&lt;/font&gt;">
+          <mxGeometry relative="1" width="160" x="0.125" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="350" y="330" as="sourcePoint" />
+            <mxPoint x="510" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-31" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="Directeur" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="E-mail annuleren" vertex="1">
+          <mxGeometry height="70" width="140" x="290" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="6yMeuTrKZTJg5ea7_a2W-34" edge="1" parent="1" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=26;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="65" y="350" as="sourcePoint" />
+            <mxPoint x="65" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
