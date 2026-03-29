@@ -1,0 +1,142 @@
+[gd_scene load_steps=24 format=3 uid="uid://b2adbk1pvbtyh"]
+
+[ext_resource type="PackedScene" uid="uid://bjgwv3hxqh3w4" path="res://assets/kenny/Models/GLB format/building-a.glb" id="1_c16ls"]
+[ext_resource type="PackedScene" uid="uid://covciffyu6pn4" path="res://assets/kenny/Models/GLB format/building-c.glb" id="2_18nlu"]
+[ext_resource type="PackedScene" uid="uid://bf6yhb8gtg6qe" path="res://assets/kenny/Models/GLB format/building-k.glb" id="3_c1pb6"]
+[ext_resource type="PackedScene" uid="uid://b4oxbvamyoddj" path="res://assets/kenny2/Models/GLB format/road-intersection.glb" id="4_6wevv"]
+[ext_resource type="PackedScene" uid="uid://dhceh6gqhtq13" path="res://assets/kenny2/Models/GLB format/road-end.glb" id="5_e1cbu"]
+[ext_resource type="PackedScene" uid="uid://blc2tlr675e6l" path="res://assets/kenny2/Models/GLB format/road-straight.glb" id="6_mngbo"]
+[ext_resource type="PackedScene" uid="uid://b2r6pa28sqgtp" path="res://assets/kenny/Models/GLB format/building-n.glb" id="7_4w45t"]
+[ext_resource type="PackedScene" uid="uid://dpo3tdtgcstgx" path="res://assets/kenny2/Models/GLB format/road-intersection-line.glb" id="8_r6p65"]
+[ext_resource type="PackedScene" uid="uid://6cwp3yyncc7w" path="res://assets/kenny/Models/GLB format/building-s.glb" id="9_si52b"]
+[ext_resource type="PackedScene" uid="uid://rf8pjc4rp81h" path="res://assets/kenny/Models/GLB format/building-f.glb" id="10_01n6w"]
+[ext_resource type="PackedScene" uid="uid://dywhni0fet5wg" path="res://assets/kenny2/Models/GLB format/road-crossroad-path.glb" id="11_6u1mn"]
+[ext_resource type="PackedScene" uid="uid://bvdqnyn6xw24q" path="res://assets/kenny2/Models/GLB format/light-curved.glb" id="12_bcnxi"]
+[ext_resource type="PackedScene" uid="uid://478ak0nkr4nr" path="res://assets/kenny/Models/GLB format/building-t.glb" id="13_7nt27"]
+[ext_resource type="PackedScene" uid="uid://c8a32ww3rivo4" path="res://assets/kenny/Models/GLB format/building-d.glb" id="14_k6f3i"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_und3l"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_w2twt"]
+sky_material = SubResource("ProceduralSkyMaterial_und3l")
+
+[sub_resource type="Environment" id="Environment_pw63i"]
+background_mode = 2
+sky = SubResource("Sky_w2twt")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r6p65"]
+albedo_color = Color(0, 0, 0, 0)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_si52b"]
+material = SubResource("StandardMaterial3D_r6p65")
+size = Vector2(200, 200)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xdqt8"]
+albedo_color = Color(0.427493, 0.42749307, 0.42749307, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_adb74"]
+material = SubResource("StandardMaterial3D_xdqt8")
+size = Vector2(3, 2.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_58gk3"]
+albedo_color = Color(0.42745098, 0.42745098, 0.42745098, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_to7gp"]
+material = SubResource("StandardMaterial3D_58gk3")
+size = Vector2(5, 2)
+
+[node name="main scene" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.81193054, 0.50554585, -0.29187703, 4.1615138e-08, 0.49999988, 0.8660255, 0.5837541, -0.70315254, 0.40596515, 2.685707, 69.07766, 91.1007)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_pw63i")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.76244974, -0.12629117, 0.63460296, -0.18658912, 0.89618945, 0.40252823, -0.61956024, -0.42531756, 0.65973485, 15.877111, 60.23316, 87.36248)
+fov = 73.125
+
+[node name="building-a2" parent="." instance=ExtResource("1_c16ls")]
+transform = Transform3D(-3, 0, -4.5298742e-07, 0, 3, 0, 4.5298742e-07, 0, -3, 13.005, 0, -15.497)
+
+[node name="building-c2" parent="." instance=ExtResource("2_18nlu")]
+transform = Transform3D(-30, 0, -4.529874e-06, 0, 30, 0, 4.529874e-06, 0, -30, -64, 0, 62)
+
+[node name="building-k2" parent="." instance=ExtResource("3_c1pb6")]
+transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, -19, 0, 39)
+
+[node name="road-intersection2" parent="." instance=ExtResource("4_6wevv")]
+transform = Transform3D(-30, 0, -2.6226833e-06, 0, 30, 0, 2.6226833e-06, 0, -30, -21.247, 0, 11.025)
+
+[node name="road-end2" parent="." instance=ExtResource("5_e1cbu")]
+transform = Transform3D(-4.6861837e-06, 0, -29.999998, 0, 30.000002, 0, 43.679996, 0, -3.2185312e-06, -21.300001, 0, -24.95)
+
+[node name="road-end3" parent="." instance=ExtResource("5_e1cbu")]
+transform = Transform3D(-38.999996, 0, 4.529873e-06, 0, 29.999998, 0, -5.8888354e-06, 0, -29.999996, 12.8, 0, 11.05)
+
+[node name="road-straight3" parent="." instance=ExtResource("6_mngbo")]
+transform = Transform3D(-31.589998, 0, 2.6226828e-06, 0, 29.999998, 0, -2.7616852e-06, 0, -29.999996, -51.4, 0, 11.05)
+
+[node name="road-straight5" parent="." instance=ExtResource("6_mngbo")]
+transform = Transform3D(-71.37593, 0, 2.6226826e-06, 0, 29.999998, 0, -6.2398813e-06, 0, -29.999992, -130.24724, 0, 11.020998)
+
+[node name="road-straight7" parent="." instance=ExtResource("6_mngbo")]
+transform = Transform3D(-71.37593, 0, 2.6226826e-06, 0, 29.999998, 0, -6.2398813e-06, 0, -29.999992, -130.24724, 0, -83.0701)
+
+[node name="road-straight4" parent="." instance=ExtResource("6_mngbo")]
+transform = Transform3D(-2.8230565e-06, 0, 29.999998, 0, 30.000002, 0, -64.58401, 0, -1.3113415e-06, -79.998, 0, -36.139)
+
+[node name="road-straight8" parent="." instance=ExtResource("6_mngbo")]
+transform = Transform3D(-2.8230565e-06, 0, 29.999998, 0, 30.000002, 0, -64.58401, 0, -1.3113415e-06, -79.998, 0, -129.73862)
+
+[node name="road-straight6" parent="." instance=ExtResource("6_mngbo")]
+transform = Transform3D(-2.8230565e-06, 0, 29.999998, 0, 30.000002, 0, -64.58401, 0, -1.3113415e-06, -180.44427, 0, -36.139)
+
+[node name="building-n2" parent="." instance=ExtResource("7_4w45t")]
+transform = Transform3D(-29.999998, 0, 2.622683e-06, 0, 29.999998, 0, -2.622683e-06, 0, -29.999998, -65, 0, -9)
+
+[node name="road-intersection-line2" parent="." instance=ExtResource("8_r6p65")]
+transform = Transform3D(-29.999998, 0, -2.622683e-06, 0, 29.999998, 0, 2.622683e-06, 0, -29.999998, -80, 0, 11)
+
+[node name="road-intersection-line3" parent="." instance=ExtResource("8_r6p65")]
+transform = Transform3D(-29.999998, 0, -2.622683e-06, 0, 29.999998, 0, 2.622683e-06, 0, -29.999998, -180.52016, 0, 11)
+
+[node name="road-intersection-line4" parent="." instance=ExtResource("8_r6p65")]
+transform = Transform3D(29.999996, 0, -0.008377551, 0, 29.999998, 0, 0.008377551, 0, 29.999996, -180.52016, 0, -83.063965)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-29.999998, 0, 2.6226828e-06, 0, 29.999998, 0, -2.6226828e-06, 0, -29.999998, -65.20782, -0.061454773, -8.770363)
+mesh = SubResource("PlaneMesh_si52b")
+skeleton = NodePath("../building-n2")
+
+[node name="building-s2" parent="." instance=ExtResource("9_si52b")]
+transform = Transform3D(26.299997, 0, 9.094947e-13, 0, 26.299997, 0, -9.094947e-13, 0, 26.299997, -36.010002, 0, -58.99997)
+
+[node name="building-f2" parent="." instance=ExtResource("10_01n6w")]
+transform = Transform3D(-46.592, 0, 4.0731984e-06, 0, 46.592, 0, -4.0731984e-06, 0, -46.592, -178.00009, 1, 84.000015)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="building-f2"]
+transform = Transform3D(0.9999999, 0, 0, 0, 0.9999999, 0, 0, 0, 0.9999999, -0.30048084, 0, 0)
+mesh = SubResource("PlaneMesh_adb74")
+
+[node name="road-crossroad-path2" parent="." instance=ExtResource("11_6u1mn")]
+transform = Transform3D(30, 0, 0, 0, 30, 0, 0, 0, 30, -80, 0, -83)
+
+[node name="light-curved2" parent="." instance=ExtResource("12_bcnxi")]
+transform = Transform3D(-53.999992, 0, -2.622683e-06, 0, 29.999998, 0, 4.720829e-06, 0, -29.999998, -104, 0, -10)
+
+[node name="building-t2" parent="." instance=ExtResource("13_7nt27")]
+transform = Transform3D(-22.140305, 0, 1.9355668e-06, 0, 22.140305, 0, -1.9355668e-06, 0, -22.140305, -146.27907, 0, -19.596567)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="building-t2"]
+transform = Transform3D(0.64134526, 0, 9.947598e-14, 0, 1, 0, -4.2632564e-14, 0, 1.4819684, -0.71747017, 0, 0.7727843)
+mesh = SubResource("PlaneMesh_to7gp")
+
+[node name="building-d2" parent="." instance=ExtResource("14_k6f3i")]
+transform = Transform3D(-0.3885695, 0, -36.616135, 0, 36.618195, 0, 36.616135, 0, -0.3885695, -141.33301, 0, -52.453)
