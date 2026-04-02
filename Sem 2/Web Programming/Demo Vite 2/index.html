@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script type="module" src="/src/main.ts" defer></script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>demo-vite-2</title>
+  </head>
+  <body>
+    <header>
+      <form id="ingredientSelector">
+        <select name="ingredient" id="cocktailIngredientDropdown">
+          <option value="kiwi">kiwi</option>
+          <option value="strawberry">strawberry</option>
+          <option value="lemon">lemon</option>
+        </select>
+        <button type="submit">fetch cocktail</button>
+      </form>
+    </header>
+    <main></main>
+    <template id="cocktailTemplate">
+      <article id="cocktailCard">
+        <img class="cocktailImage" src ="">
+        <section class="container">
+          <h1 class="cocktailName"></h1>
+          <p class="cocktailInstructions"></p>
+        </section>
+      </article>
+    </template>
+  </body>
+</html>

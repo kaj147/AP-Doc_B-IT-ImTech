@@ -6,7 +6,8 @@ tsc --init
 npm install -D @types/node
 
 
-Vite
+Vite:
+
 npm create vite@latest . -- --template vanilla-ts
 
 
