@@ -5,7 +5,7 @@
 #include "Monster.h"
 #include "Scientist.h"
 
-void PerformExperiment(Game::Monster& m)
+void Game::PerformExperiment(Game::Monster& m)
 {
-
+    m.stats.mutationLevel++;
 }

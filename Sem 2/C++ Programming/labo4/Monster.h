@@ -4,6 +4,7 @@
 
 #ifndef LABO4_GAME_H
 #define LABO4_GAME_H
+using namespace std;
 
 #include <raylib.h>
 #include <string>
@@ -13,17 +14,13 @@ namespace Game
     class Monster
     {
     private:
-        Texture2D img;
-        Vector2 position;
-        std::string path;
-
-        /*struct MonsterStats
+        struct MonsterStats
         {
             float speed;
             int power;
+            int mutationLevel = 0;
         };
-        MonsterStats stats;*/
-        int mutationLevel = 1;
+        MonsterStats stats;
 
         friend void PerformExperiment(Game::Monster& m);
 
@@ -34,7 +31,6 @@ namespace Game
 
         Vector2 getPosition();
 
-        void Update();
         void Draw();
         bool EnemyClose(Vector2 distance);
 

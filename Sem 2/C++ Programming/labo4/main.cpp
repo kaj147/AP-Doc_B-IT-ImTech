@@ -4,12 +4,13 @@
 #include "Monster.h"
 #include "Hero.h"
 #include "raymath.h"
+using namespace std;
 
 Vector2 screen = {1200, 800};
 
 Hero* hero;
 
-std::string path = "../the monster lab sprites/lab-background.png";
+string path = "../the monster lab sprites/lab-background.png";
 
 int main()
 {
@@ -43,10 +44,22 @@ int main()
         {
             //std::cout << "monster x: " <<monster->getPosition().x << " monster y: " << monster->getPosition().y << std::endl;
             //std::cout << "hero x: " <<hero->getLocation().x << " hero y: " << hero->getLocation().y << std::endl;
-
+            /*
             if (std::abs(monster->getPosition().x - hero->getLocation().x) < 50 || std::abs((monster->getPosition().x - 150) - (hero->getLocation().x - 200)) < 50)
             {
                 if (std::abs(monster->getPosition().y - hero->getLocation().y) < 50 || std::abs((monster->getPosition().y - 150) - (hero->getLocation().y - 200)) < 50)
+                {
+                    deleteMon = monster;
+                    deleteIndex = deleteCounter;
+                }
+            }
+            */
+            // hero 200x200 monster 150x150
+            if ((hero->getLocation().x + 200) >= (monster->getPosition().x)
+                && (hero->getLocation().x) <= (monster->getPosition().x + 150))
+            {
+                if ((hero->getLocation().y + 200) >= monster->getPosition().y
+                    && hero->getLocation().y <= monster->getPosition().y + 150)
                 {
                     deleteMon = monster;
                     deleteIndex = deleteCounter;
